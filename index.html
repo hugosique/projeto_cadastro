@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet">
+	<title>Empregos</title>
+</head>
+<body>
+	<div class="menu">
+		<p>🏠 Empregos.com</p>
+	</div>
+	<div class="form">
+		<form>
+			<fieldset>
+				<legend>Cadastro de currículo</legend>
+				<div class="form-box">
+					<label>Código:</label>
+					<input class="cod" type="number" maxlength="3" id="codigo"/>
+					<label class="lbl-set">Nome *:</label>
+					<input class="input-settings" type="text" size="24px" id="nome">
+
+					<label class="lbl-set">E-mail *:</label>
+					<input class="input-settings" type="text" size="25px" id="email">
+					
+					<label class="lbl-set">Telefone:</label>
+					<input class="input-settings" type="tel" size="5px" id="telefone" maxlength="11">
+				</div>
+				<div class="form-box">
+					<label>Endereço *:</label>
+					<input class="input-settings" type="text" size="80px" placeholder="ex: Av. Dom Pedro II, 261, Salto-SP, Brasil" id="endereco">
+
+					<label class="lbl-set">Vaga pretendida:</label>
+					<select class="input-settings" id="vaga">
+						<option>Geral</option>
+						<option>Auxiliar administrativo</option>
+						<option>Programador Web</option>
+						<option>Vendedor</option>
+						<option>Comprador</option>
+						<option>Menor aprendiz</option>
+					</select>
+				</div>
+				<div class="form-box">
+					<label></label>
+					<button id="enviar">Enviar</button>
+					<button id="cancelar">Cancelar</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<div id="listagem">
+		
+	</div>
+	<script src="cad.js"></script>
+</body>
+</html>

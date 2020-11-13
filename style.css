@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    background-color:#4682B4;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 2px #333333;
+}
+
+
+.menu p {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 2px;
+}
+
+.form fieldset{
+    border-color: #4682B4;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 4px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+.form legend {
+    font-size: 25px;
+    text-align: center;
+    color: #4682B4;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: row; 
+}
+
+.form-box .input-settings {
+    border-radius: 5%;
+    border-width: 0.1px;
+    flex: 1 1 auto;
+    padding: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    outline: inherit;
+    
+}
+
+.form-box .cod {
+    max-width: 50px;
+    border-radius: 5%;
+    border-width: 0.1px;
+    flex: 1 1 auto;
+    padding: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    outline: inherit;
+}
+.form-box select#vaga {
+    width: 10px;
+}
+
+.form-box label.lbl-set {
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: auto;
+    margin:10px;
+}
+
+.form-box label {
+    flex: none;
+    display: block;
+    width: 95px;
+    font-size: 18;
+}
+
+.form-box button {
+    cursor: pointer;
+    border-radius: 5%;
+    outline: inherit;
+    padding: 5px;
+    margin: 5px;
+    min-width: 80px;
+    background-color: white;
+    border-color: #4682B4;
+    font-weight: bold;
+    color: #4682B4;
+}
+
+.form-box button:hover {
+    background-color: #4682B4;
+    border-color:black;
+    color: white;
+}
+.form-box button#cancelar:hover {
+    background-color: red;
+}
+
+button.btn-edit {
+    cursor: pointer;
+    border-radius: 5%;
+    outline: inherit;
+    min-width: 15px;
+    background-color: white;
+    border-color: #4682B4;
+    font-weight: bold;
+    color: #4682B4;
+}
+
+button.btn-edit:hover {
+    background-color: #4682B4;
+    border-color:black;
+}
+
+button.btn-edit#remover:hover {
+    background-color: red;
+}
+
+/* Estilo da Tabela*/
+
+table.paleBlueRows {
+    border: 1px solid #FFFFFF;
+    width: 82%;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.paleBlueRows td, table.paleBlueRows th {
+    border: 1px solid #FFFFFF;
+    padding: 6px 2px;
+    
+  }
+  table.paleBlueRows tbody td {
+    font-size: 16px;
+    
+  }
+  table.paleBlueRows tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.paleBlueRows thead {
+    background: #4682B4;
+    border-bottom: 5px solid #FFFFFF;
+  }
+  table.paleBlueRows thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+  }
+  table.paleBlueRows thead th:first-child {
+    border-left: none;
+  }
+  
+  table.paleBlueRows tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    background: #D0E4F5;
+    border-top: 3px solid #444444;
+  }
+  table.paleBlueRows tfoot td {
+    font-size: 14px;
+  }
+  caption {
+    font-size: 25px;
+    color: #4682B4;
+    font-weight: bold;
+    padding: 15px;
+
+  }
